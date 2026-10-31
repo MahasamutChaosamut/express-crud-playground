@@ -1,0 +1,29 @@
+{
+  "name": "clinic-api-playground",
+  "version": "1.0.0",
+  "description": "Express playground สำหรับฝึกพื้นฐาน Node.js ก่อนสร้าง Clinic Booking API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MahasamutChaosamut/book-api.git"
+  },
+  "keywords": ["clinic", "express", "playground"],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/MahasamutChaosamut/book-api/issues"
+  },
+  "homepage": "https://github.com/MahasamutChaosamut/book-api#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
