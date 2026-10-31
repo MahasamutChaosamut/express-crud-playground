@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "firstName": "สมชาย",
+    "lastName": "ใจดี",
+    "phone": "0810000001",
+    "birthDate": "1990-05-12"
+  },
+  {
+    "id": 2,
+    "firstName": "สมหญิง",
+    "lastName": "รักสุข",
+    "phone": "0810000002",
+    "birthDate": "1985-11-03"
+  },
+  {
+    "id": 3,
+    "firstName": "John",
+    "lastName": "Doe",
+    "phone": "0810000003",
+    "birthDate": "2000-01-20"
+  }
+]

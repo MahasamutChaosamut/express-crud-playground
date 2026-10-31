@@ -1,11 +1,11 @@
 import express from "express";
+import * as controller from "../controllers/patient.controller.js";
+
 const router = express.Router();
 
-router.get("/", (req, res) => {
-  res.json({ message: "Hello, patients!" });
-});
-
-router.get("/:id", (req, res) => {
-  res.json({ message: `Patient ID: ${req.params.id}` });
-});
+router.get("/", controller.getAllPatientsController);
+router.get("/:id", controller.getByIdPatientController);
+router.post("/", controller.createPatientController);
+router.patch("/:id", controller.updatePatientController);
+router.delete("/:id", controller.deletePatientController);
 export default router;
