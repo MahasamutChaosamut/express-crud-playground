@@ -1,4 +1,4 @@
-# 🏥 Clinic API Playground
+# 🏥 Clinic Booking API (Playground)
 
 Express playground สำหรับฝึกพื้นฐาน Node.js (Day 1–3 ของแผน 30 วัน)
 ก่อนสร้างโปรเจกต์จริง **Clinic Booking API** ด้วย NestJS + PostgreSQL + Prisma
